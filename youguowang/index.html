@@ -1,0 +1,1132 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>尤果网官方网站-视觉图集与模特写真目录</title>
+<meta name="description" content="尤果网官方网站提供视觉图集与模特写真目录，按主题、城市、摄影师与更新周期整理。含目录索引、专题解读、体验指南、榜单与用户评论，帮助快速定位想看的高清套图与拍摄花絮。">
+<meta name="keywords" content="尤果网官方网站">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b1b2e'/%3E%3Ccircle cx='24' cy='24' r='11' fill='%23e8b04b'/%3E%3Ccircle cx='42' cy='42' r='11' fill='%23c96a5a'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#1b1b2e;
+  --ink-2:#2c2c44;
+  --muted:#6c6b80;
+  --line:#e4e1da;
+  --paper:#faf8f4;
+  --card:#ffffff;
+  --brand:#1b1b2e;
+  --gold:#c99a3f;
+  --gold-soft:#f3e6ca;
+  --rose:#c96a5a;
+  --rose-soft:#f7e2dd;
+  --sage:#5f7f6a;
+  --sage-soft:#e2ece4;
+  --r-s:6px;
+  --r-m:12px;
+  --r-l:20px;
+  --sp-1:6px;
+  --sp-2:12px;
+  --sp-3:18px;
+  --sp-4:28px;
+  --sp-5:44px;
+  --sp-6:68px;
+  --shadow-1:0 1px 2px rgba(27,27,46,.06),0 6px 18px rgba(27,27,46,.05);
+  --shadow-2:0 2px 4px rgba(27,27,46,.07),0 14px 34px rgba(27,27,46,.09);
+  --font:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+  --serif:Georgia,"Songti SC","Noto Serif SC",serif;
+  --ann-h:40px;
+  --head-h:70px;
+  --stick:calc(var(--ann-h) + var(--head-h));
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;font-family:var(--font);color:var(--ink);background:var(--paper);
+  line-height:1.75;font-size:16px;-webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+a:hover{color:var(--rose)}
+img{max-width:100%;display:block}
+h1,h2,h3,h4{margin:0;line-height:1.3;font-weight:700}
+p{margin:0 0 var(--sp-2)}
+ul,ol{margin:0 0 var(--sp-2);padding-left:1.2em}
+li{margin-bottom:4px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px;border-radius:4px}
+section[id],div[id]{scroll-margin-top:calc(var(--stick) + 14px)}
+
+/* ---------- 吸顶公告条 ---------- */
+.announce{
+  position:sticky;top:0;z-index:60;height:var(--ann-h);
+  background:var(--ink);color:#f3efe6;font-size:13.5px;
+  display:flex;align-items:center;
+}
+.announce .wrap{
+  width:100%;max-width:1220px;margin:0 auto;padding:0 20px;
+  display:flex;align-items:center;gap:14px;overflow:hidden;white-space:nowrap;
+}
+.announce .tag{
+  background:var(--gold);color:var(--ink);font-weight:700;
+  padding:2px 9px;border-radius:999px;font-size:12px;letter-spacing:.5px;flex:none;
+}
+.announce .txt{overflow:hidden;text-overflow:ellipsis}
+.announce a{margin-left:auto;flex:none;color:var(--gold-soft);border-bottom:1px dashed rgba(243,230,202,.5)}
+
+/* ---------- 页头 ---------- */
+.head{
+  position:sticky;top:var(--ann-h);z-index:55;background:rgba(250,248,244,.94);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line);
+}
+.head .wrap{
+  max-width:1220px;margin:0 auto;padding:0 20px;height:var(--head-h);
+  display:flex;align-items:center;gap:20px;
+}
+.brand{display:flex;align-items:center;gap:10px;flex:none}
+.brand svg{width:36px;height:36px;flex:none}
+.brand .name{font-family:var(--serif);font-size:19px;font-weight:700;letter-spacing:.5px}
+.nav{display:flex;gap:4px;margin-left:12px;flex-wrap:wrap}
+.nav a{
+  padding:7px 12px;border-radius:var(--r-s);font-size:14.5px;color:var(--ink-2);
+  transition:background .18s,color .18s;
+}
+.nav a:hover{background:var(--gold-soft);color:var(--ink)}
+.head .spacer{margin-left:auto}
+.search{display:flex;align-items:center;gap:6px;position:relative}
+.search input{
+  width:172px;padding:8px 12px;border:1px solid var(--line);border-radius:999px;
+  font-size:14px;background:#fff;font-family:var(--font);color:var(--ink);
+}
+.search input:focus{outline:none;border-color:var(--gold);box-shadow:0 0 0 3px var(--gold-soft)}
+.search button{
+  border:1px solid var(--ink);background:var(--ink);color:#fff;font-size:13.5px;
+  padding:8px 14px;border-radius:999px;cursor:pointer;font-family:var(--font);
+}
+.search button:hover{background:var(--ink-2)}
+.search-result{
+  position:absolute;top:46px;right:0;width:280px;background:#fff;border:1px solid var(--line);
+  border-radius:var(--r-m);box-shadow:var(--shadow-2);padding:10px 12px;font-size:13.5px;
+  display:none;z-index:70;color:var(--ink-2);max-height:280px;overflow:auto;
+}
+.search-result.open{display:block}
+.search-result a{display:block;padding:5px 0;border-bottom:1px dashed var(--line)}
+.search-result a:last-child{border-bottom:0}
+.menu-btn{
+  display:none;background:none;border:1px solid var(--line);border-radius:var(--r-s);
+  padding:7px 11px;font-size:14px;cursor:pointer;font-family:var(--font);color:var(--ink);
+}
+
+/* ---------- 首屏 ---------- */
+.hero{
+  max-width:1220px;margin:0 auto;padding:var(--sp-5) 20px var(--sp-4);
+  display:grid;grid-template-columns:1.08fr .92fr;gap:var(--sp-5);align-items:center;
+}
+.hero .kicker{
+  display:inline-flex;align-items:center;gap:8px;font-size:13px;letter-spacing:2px;
+  color:var(--rose);font-weight:600;margin-bottom:var(--sp-2);
+}
+.hero .kicker::before{content:"";width:26px;height:2px;background:var(--rose);display:block}
+.hero h1{font-family:var(--serif);font-size:clamp(30px,4.4vw,50px);letter-spacing:1px;margin-bottom:var(--sp-2)}
+.hero .lede{font-size:17px;color:var(--ink-2);max-width:34em;margin-bottom:var(--sp-4)}
+.hero .stats{display:flex;gap:var(--sp-4);flex-wrap:wrap;margin:0 0 var(--sp-4);padding:0;list-style:none}
+.hero .stats li{margin:0}
+.hero .stats b{display:block;font-family:var(--serif);font-size:26px;color:var(--ink)}
+.hero .stats span{font-size:13px;color:var(--muted)}
+.hero .cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{
+  display:inline-block;padding:11px 22px;border-radius:999px;font-size:15px;
+  border:1px solid var(--ink);transition:background .18s,color .18s,transform .18s;
+}
+.btn.primary{background:var(--ink);color:#fff}
+.btn.primary:hover{background:var(--ink-2);transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn.ghost:hover{background:var(--gold-soft);transform:translateY(-2px)}
+.hero-art{
+  position:relative;aspect-ratio:1/1.03;border-radius:var(--r-l);overflow:hidden;
+  background:linear-gradient(150deg,#25243a 0%,#3a3550 55%,#6b4a4a 100%);
+  box-shadow:var(--shadow-2);
+}
+.hero-art svg{position:absolute;inset:0;width:100%;height:100%}
+.hero-art .cap{
+  position:absolute;left:18px;bottom:16px;right:18px;color:#f4efe4;font-size:12.5px;
+  letter-spacing:1px;display:flex;justify-content:space-between;gap:10px;
+}
+.hero-art .cap span{background:rgba(20,20,34,.55);padding:4px 10px;border-radius:999px}
+
+/* ---------- 布局 ---------- */
+.layout{
+  max-width:1220px;margin:0 auto;padding:0 20px var(--sp-6);
+  display:grid;grid-template-columns:1fr 300px;gap:var(--sp-4);align-items:start;
+}
+.main{min-width:0}
+.side{position:sticky;top:calc(var(--stick) + 16px);min-width:0}
+.block{margin-bottom:var(--sp-5)}
+.block > h2{
+  font-size:clamp(21px,2.3vw,26px);font-family:var(--serif);letter-spacing:.5px;
+  padding-bottom:10px;border-bottom:2px solid var(--ink);margin-bottom:var(--sp-3);
+  display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+}
+.block > h2 .sub{font-size:13px;color:var(--muted);font-weight:400;font-family:var(--font);letter-spacing:0}
+.block .intro{color:var(--muted);font-size:14.5px;margin:-6px 0 var(--sp-3)}
+
+/* ---------- 领域概览 ---------- */
+.overview{display:grid;grid-template-columns:1.25fr .75fr;gap:var(--sp-3)}
+.overview .prose p:last-child{margin-bottom:0}
+.panel{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r-m);
+  padding:var(--sp-3);box-shadow:var(--shadow-1);
+}
+.panel h3{font-size:16px;margin-bottom:10px}
+.def-list{margin:0;padding:0;list-style:none;font-size:14px}
+.def-list li{padding:8px 0;border-bottom:1px dashed var(--line);display:flex;gap:10px}
+.def-list li:last-child{border-bottom:0}
+.def-list b{flex:none;width:74px;color:var(--ink);font-weight:600}
+.def-list span{color:var(--muted)}
+
+/* ---------- 精选推荐 ---------- */
+.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--sp-3)}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r-m);overflow:hidden;
+  box-shadow:var(--shadow-1);transition:transform .18s,box-shadow .18s;display:flex;flex-direction:column;
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-2)}
+.card img{width:100%;height:158px;object-fit:cover}
+.card .body{padding:14px 15px 16px;display:flex;flex-direction:column;flex:1}
+.card .meta{font-size:12.5px;color:var(--muted);margin-bottom:6px;display:flex;gap:8px;flex-wrap:wrap}
+.card h3{font-size:16px;margin-bottom:6px}
+.card p{font-size:13.8px;color:var(--ink-2);margin-bottom:10px;flex:1}
+.chip{
+  display:inline-block;font-size:12px;padding:3px 9px;border-radius:999px;
+  background:var(--gold-soft);color:#6a4f14;margin-right:5px;
+}
+.chip.rose{background:var(--rose-soft);color:#8c3f31}
+.chip.sage{background:var(--sage-soft);color:#3c5c46}
+.card-wide{grid-column:span 2;flex-direction:row}
+.card-wide img{width:44%;height:auto;min-height:200px}
+.card-wide .body{justify-content:center}
+
+/* ---------- 最新更新 ---------- */
+.updates{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.updates li{
+  display:grid;grid-template-columns:92px 1fr auto;gap:16px;align-items:baseline;
+  padding:12px 2px;border-bottom:1px solid var(--line);transition:background .15s;
+}
+.updates li:hover{background:#fff}
+.updates time{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.updates .t{font-size:15px;font-weight:600}
+.updates .d{font-size:13.5px;color:var(--muted);grid-column:2;margin-top:2px}
+.updates .who{font-size:12.5px;color:var(--rose);white-space:nowrap}
+
+/* ---------- 分类入口 ---------- */
+.index-tags{display:flex;flex-wrap:wrap;gap:10px}
+.index-tags a{
+  display:inline-flex;align-items:center;gap:8px;padding:9px 15px;border-radius:999px;
+  border:1px solid var(--line);background:#fff;font-size:14.5px;transition:.18s;
+}
+.index-tags a:hover{border-color:var(--ink);background:var(--ink);color:#fff}
+.index-tags a small{color:var(--muted);font-size:12px}
+.index-tags a:hover small{color:var(--gold-soft)}
+
+/* ---------- 深度解析 ---------- */
+.deep{background:var(--card);border:1px solid var(--line);border-radius:var(--r-m);padding:var(--sp-4);box-shadow:var(--shadow-1)}
+.deep h3{font-size:18px;margin:var(--sp-3) 0 10px;padding-left:12px;border-left:4px solid var(--gold)}
+.deep h3:first-child{margin-top:0}
+.deep p{font-size:15px;color:var(--ink-2)}
+.deep .verdict{
+  background:var(--gold-soft);border-radius:var(--r-s);padding:14px 16px;margin:var(--sp-3) 0;
+  font-size:15px;border-left:4px solid var(--gold);color:#4a3510;
+}
+.deep .check{
+  background:#fff;border:1px dashed #c9c4b6;border-radius:var(--r-s);padding:14px 16px;margin:var(--sp-3) 0;
+}
+.deep .check h4{font-size:14.5px;margin-bottom:8px}
+.deep .check table{width:100%;border-collapse:collapse;font-size:13.5px}
+.deep .check th,.deep .check td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+.deep .check th{color:var(--muted);font-weight:600;width:34%}
+
+/* ---------- 体验指南 ---------- */
+.steps{list-style:none;counter-reset:s;padding:0;margin:0;display:grid;gap:var(--sp-2)}
+.steps li{
+  counter-increment:s;position:relative;padding:14px 16px 14px 58px;background:#fff;
+  border:1px solid var(--line);border-radius:var(--r-m);font-size:14.5px;
+}
+.steps li::before{
+  content:counter(s,decimal-leading-zero);position:absolute;left:16px;top:12px;
+  font-family:var(--serif);font-size:22px;color:var(--gold);font-weight:700;
+}
+.steps b{display:block;margin-bottom:2px;font-size:15px}
+
+/* ---------- 对照面板 ---------- */
+.compare{display:grid;grid-template-columns:1fr 1fr;gap:0;border:1px solid var(--line);border-radius:var(--r-m);overflow:hidden;background:#fff}
+.compare > div{padding:var(--sp-3)}
+.compare .side-a{background:#fdfcf9;border-right:1px solid var(--line)}
+.compare h3{font-size:15.5px;margin-bottom:10px}
+.compare ul{padding-left:1.1em;font-size:14px;margin:0}
+.compare li{margin-bottom:8px}
+
+/* ---------- FAQ ---------- */
+.faq details{
+  background:#fff;border:1px solid var(--line);border-radius:var(--r-m);
+  margin-bottom:10px;padding:0 16px;
+}
+.faq details[open]{border-color:var(--gold);box-shadow:var(--shadow-1)}
+.faq summary{
+  cursor:pointer;padding:13px 0;font-size:15px;font-weight:600;list-style:none;
+  display:flex;justify-content:space-between;gap:14px;align-items:center;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:19px;color:var(--gold);font-weight:400;flex:none}
+.faq details[open] summary::after{content:"−"}
+.faq .ans{padding:0 0 14px;font-size:14.3px;color:var(--ink-2)}
+
+/* ---------- 评论 ---------- */
+.comments{display:grid;gap:var(--sp-2)}
+.comment{
+  background:#fff;border:1px solid var(--line);border-radius:var(--r-m);padding:14px 16px;
+}
+.comment .who{display:flex;gap:10px;align-items:center;font-size:13px;color:var(--muted);margin-bottom:6px}
+.comment .who b{color:var(--ink);font-size:14px}
+.comment .rate{color:var(--gold);letter-spacing:1px;font-size:12.5px}
+.comment p{margin:0;font-size:14.3px}
+.comment .ref{
+  display:inline-block;margin-top:8px;font-size:12.5px;color:var(--rose);
+  border-bottom:1px dashed currentColor;
+}
+
+/* ---------- 资讯 ---------- */
+.news-list{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.news-list li{display:flex;gap:14px;align-items:baseline;font-size:14.5px;padding-bottom:10px;border-bottom:1px dashed var(--line)}
+.news-list time{flex:none;font-size:12.5px;color:var(--muted);width:78px;font-variant-numeric:tabular-nums}
+.news-list .tag{flex:none;font-size:11.5px;padding:1px 8px;border-radius:999px;background:var(--sage-soft);color:#3c5c46}
+
+/* ---------- 时间线 ---------- */
+.timeline{position:relative;margin:0;padding:0 0 0 22px;list-style:none;border-left:2px solid var(--line)}
+.timeline li{position:relative;padding:0 0 18px 8px}
+.timeline li::before{content:"";position:absolute;left:-30px;top:6px;width:11px;height:11px;border-radius:50%;background:#fff;border:2px solid var(--rose)}
+.timeline b{display:block;font-size:14.5px}
+.timeline span{font-size:13px;color:var(--muted)}
+
+/* ---------- 榜单 ---------- */
+.rank{list-style:none;counter-reset:r;padding:0;margin:0;background:#fff;border:1px solid var(--line);border-radius:var(--r-m);overflow:hidden}
+.rank li{counter-increment:r;display:flex;gap:14px;align-items:baseline;padding:12px 16px;border-bottom:1px solid var(--line);font-size:14.5px}
+.rank li:last-child{border-bottom:0}
+.rank li::before{content:counter(r);font-family:var(--serif);font-size:19px;color:var(--gold);width:24px;flex:none;font-weight:700}
+.rank .sc{margin-left:auto;font-size:12.5px;color:var(--muted);white-space:nowrap}
+
+/* ---------- 侧栏 ---------- */
+.side .panel{margin-bottom:var(--sp-3)}
+.side nav ul{list-style:none;padding:0;margin:0;font-size:14px}
+.side nav a{display:block;padding:7px 10px;border-radius:var(--r-s);border-left:3px solid transparent;color:var(--ink-2);transition:.15s}
+.side nav a:hover{background:var(--gold-soft)}
+.side nav a.on{background:var(--gold-soft);border-left-color:var(--gold);color:var(--ink);font-weight:600}
+.reco-tags{display:flex;flex-wrap:wrap;gap:7px}
+.reco-tags a{font-size:12.8px;padding:4px 10px;border-radius:999px;background:#f2efe8;color:var(--ink-2)}
+.reco-tags a:hover{background:var(--ink);color:#fff}
+.quote{
+  font-family:var(--serif);font-size:14.5px;color:var(--ink-2);border-left:3px solid var(--rose);
+  padding-left:12px;margin:0 0 8px;
+}
+.quote cite{display:block;font-family:var(--font);font-size:12.5px;color:var(--muted);margin-top:6px;font-style:normal}
+
+/* ---------- 页脚 ---------- */
+.foot{background:var(--ink);color:#cfcbd9;margin-top:var(--sp-4)}
+.foot .wrap{max-width:1220px;margin:0 auto;padding:var(--sp-5) 20px var(--sp-3)}
+.foot .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:var(--sp-4)}
+.foot .brand{color:#fff;margin-bottom:10px}
+.foot .brand .name{color:#fff}
+.foot .pos{font-size:13.5px;color:#a9a5b8;max-width:30em;margin-bottom:12px}
+.foot h4{font-size:14px;color:#fff;margin-bottom:10px;letter-spacing:.5px}
+.foot ul{list-style:none;padding:0;margin:0;font-size:13.5px}
+.foot li{margin-bottom:7px}
+.foot a:hover{color:var(--gold-soft)}
+.foot .note{border-top:1px solid #35344a;margin-top:var(--sp-4);padding-top:16px;font-size:12.5px;color:#8b8799;line-height:1.9}
+.foot .note b{color:#b8b4c6;font-weight:600}
+
+/* ---------- 回到顶部 ---------- */
+.top{
+  position:fixed;right:20px;bottom:24px;z-index:50;width:44px;height:44px;border-radius:50%;
+  border:1px solid var(--line);background:#fff;color:var(--ink);cursor:pointer;font-size:18px;
+  box-shadow:var(--shadow-2);display:none;align-items:center;justify-content:center;
+}
+.top.show{display:flex}
+
+/* ---------- 响应式 ---------- */
+@media (max-width:1020px){
+  .layout{grid-template-columns:1fr}
+  .side{position:static;order:2}
+  .feature-grid{grid-template-columns:repeat(2,1fr)}
+  .card-wide{grid-column:span 2;flex-direction:column}
+  .card-wide img{width:100%;height:190px;min-height:0}
+  .hero{grid-template-columns:1fr;gap:var(--sp-4);padding-top:var(--sp-4)}
+  .hero-art{max-width:520px;aspect-ratio:4/3}
+  .overview{grid-template-columns:1fr}
+  .foot .cols{grid-template-columns:1fr 1fr}
+  .nav{display:none}
+  .nav.open{display:flex;position:absolute;top:var(--head-h);left:0;right:0;background:#fff;padding:10px 16px;border-bottom:1px solid var(--line);box-shadow:var(--shadow-2);margin:0}
+  .head .wrap{position:relative}
+  .menu-btn{display:inline-block}
+  .search input{width:130px}
+}
+@media (max-width:680px){
+  :root{--ann-h:38px;--head-h:62px}
+  .announce .wrap{gap:8px;font-size:12.5px;padding:0 14px}
+  .announce a{display:none}
+  .head .wrap{padding:0 14px;gap:10px}
+  .brand .name{font-size:16px}
+  .search input{width:98px;padding:7px 10px;font-size:13px}
+  .search button{padding:7px 10px;font-size:12.5px}
+  .search-result{width:240px;right:-6px}
+  .layout,.hero{padding-left:14px;padding-right:14px}
+  .feature-grid{grid-template-columns:1fr}
+  .card-wide{grid-column:span 1}
+  .compare{grid-template-columns:1fr}
+  .compare .side-a{border-right:0;border-bottom:1px solid var(--line)}
+  .updates li{grid-template-columns:78px 1fr;gap:10px}
+  .updates .who{grid-column:2}
+  .foot .cols{grid-template-columns:1fr}
+  .hero .stats{gap:var(--sp-3)}
+  .top{right:12px;bottom:14px;width:40px;height:40px}
+  .deep{padding:18px 16px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+  .card:hover,.btn:hover{transform:none}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- 吸顶公告条 -->
+<div class="announce" role="region" aria-label="站点更新公告">
+  <div class="wrap">
+    <span class="tag">更新</span>
+    <span class="txt">11月6日上线「冬日室内自然光」专题第 3 批，共 24 组套图；摄影师访谈同步收录 2 篇。</span>
+    <a href="/#updates">查看更新记录</a>
+  </div>
+</div>
+
+<!-- 吸顶页头 -->
+<header class="head">
+  <div class="wrap">
+    <a class="brand" href="/#hero" aria-label="尤果网官方网站 首页">
+      <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+        <rect width="64" height="64" rx="15" fill="#1b1b2e"/>
+        <circle cx="24" cy="24" r="11" fill="#c99a3f"/>
+        <circle cx="41" cy="41" r="11" fill="#c96a5a"/>
+        <circle cx="41" cy="24" r="5.5" fill="#f3e6ca" opacity=".85"/>
+      </svg>
+      <span class="name">尤果网官方网站</span>
+    </a>
+    <nav class="nav" id="mainNav" aria-label="主题导航">
+      <a href="/#overview">图集目录</a>
+      <a href="/#featured">精选套图</a>
+      <a href="/#updates">最新更新</a>
+      <a href="/#channels">主题分类</a>
+      <a href="/#deep">深度解析</a>
+      <a href="/#guide">体验指南</a>
+      <a href="/#faq">常见问题</a>
+      <a href="/#comments">用户评论</a>
+    </nav>
+    <div class="spacer"></div>
+    <form class="search" id="searchForm" role="search">
+      <label for="q" class="visually-hidden" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">站内搜索</label>
+      <input id="q" name="q" type="search" placeholder="搜套图 / 摄影师" autocomplete="off">
+      <button type="submit">查找</button>
+      <div class="search-result" id="searchResult" aria-live="polite"></div>
+    </form>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="mainNav">菜单</button>
+  </div>
+</header>
+
+<!-- 主题首屏 -->
+<section class="hero" id="hero">
+  <div>
+    <span class="kicker">视觉图集 · 写真目录</span>
+    <h1>尤果网官方网站</h1>
+    <p class="lede">按主题、城市、摄影师与光线条件整理的模特写真目录。每组套图标注拍摄时间、场景类型、服装切换次数与版权状态，方便按需检索，也方便对照同一模特在不同季度的风格变化。</p>
+    <ul class="stats">
+      <li><b>1,286</b><span>已收录套图</span></li>
+      <li><b>214</b><span>合作摄影师</span></li>
+      <li><b>38</b><span>主题分类</span></li>
+      <li><b>11月6日</b><span>最近一次批量更新</span></li>
+    </ul>
+    <div class="cta">
+      <a class="btn primary" href="/#featured">浏览精选套图</a>
+      <a class="btn ghost" href="/#channels">按主题分类查找</a>
+    </div>
+  </div>
+  <div class="hero-art" aria-hidden="true">
+    <svg viewBox="0 0 400 412" preserveAspectRatio="xMidYMid slice">
+      <defs>
+        <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0" stop-color="#2b2942"/>
+          <stop offset=".55" stop-color="#4a3c52"/>
+          <stop offset="1" stop-color="#7a4d48"/>
+        </linearGradient>
+        <linearGradient id="g2" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#f3e6ca" stop-opacity=".9"/>
+          <stop offset="1" stop-color="#f3e6ca" stop-opacity="0"/>
+        </linearGradient>
+      </defs>
+      <rect width="400" height="412" fill="url(#g1)"/>
+      <circle cx="300" cy="96" r="58" fill="url(#g2)" opacity=".55"/>
+      <rect x="34" y="72" width="150" height="210" rx="10" fill="#1b1b2e" opacity=".55"/>
+      <rect x="46" y="86" width="126" height="82" rx="5" fill="#c99a3f" opacity=".8"/>
+      <rect x="46" y="176" width="126" height="8" rx="4" fill="#f3e6ca" opacity=".55"/>
+      <rect x="46" y="192" width="94" height="8" rx="4" fill="#f3e6ca" opacity=".35"/>
+      <rect x="46" y="208" width="110" height="8" rx="4" fill="#f3e6ca" opacity=".25"/>
+      <path d="M214 300 L330 300 L330 380 L214 380 Z" fill="#1b1b2e" opacity=".5"/>
+      <circle cx="272" cy="266" r="30" fill="#c96a5a"/>
+      <path d="M226 208 Q272 158 318 208" stroke="#f3e6ca" stroke-width="2" fill="none" opacity=".6"/>
+      <g opacity=".75">
+        <rect x="214" y="318" width="100" height="6" rx="3" fill="#f3e6ca" opacity=".5"/>
+        <rect x="214" y="334" width="70" height="6" rx="3" fill="#f3e6ca" opacity=".35"/>
+        <rect x="214" y="350" width="88" height="6" rx="3" fill="#f3e6ca" opacity=".25"/>
+      </g>
+      <circle cx="96" cy="58" r="4" fill="#f3e6ca" opacity=".7"/>
+      <circle cx="356" cy="210" r="3" fill="#f3e6ca" opacity=".6"/>
+      <circle cx="350" cy="340" r="5" fill="#c99a3f" opacity=".7"/>
+    </svg>
+    <div class="cap"><span>专题：冬日室内自然光</span><span>24 组 / 2026-11-06</span></div>
+  </div>
+</section>
+
+<!-- 主内容 + 侧栏 -->
+<div class="layout">
+  <main class="main">
+
+    <!-- 领域概览 -->
+    <section class="block" id="overview">
+      <h2>图集目录概览 <span class="sub">目录怎么分、一条记录包含什么</span></h2>
+      <div class="overview">
+        <div class="prose">
+          <p>目录里的每一组写真以「模特 + 主题 + 拍摄日期」作为唯一标识，例如「林知夏 · 秋日胶片 · 2026-10-19」。同一模特在同一主题下若换了三套服装，会拆成三条独立记录，而不是合并为一条，检索时按服装编号区分。</p>
+          <p>场景标签目前分室内自然光、室内布光、城市街拍、棚拍纯色、旅拍外景五类。摄影师字段记录主摄与助理，若一组套图由两人共同完成，字段中会并列署名。授权状态只有三种取值：开放转载、限定用途、仅展示，页面上不出现模糊表述。</p>
+          <p>更新节奏上，每周二与周五各发布一批，单批 12 至 24 组；节假日前后会追加专题批次。2026 年 10 月的记录共 96 组，其中 61 组来自室内自然光场景，占比接近三分之二，这与秋季采光条件直接相关。</p>
+        </div>
+        <aside class="panel">
+          <h3>一条记录的字段构成</h3>
+          <ul class="def-list">
+            <li><b>标识</b><span>模特名 · 主题 · 日期</span></li>
+            <li><b>场景</b><span>五类标签之一</span></li>
+            <li><b>主摄</b><span>摄影师署名，可并列</span></li>
+            <li><b>服装</b><span>切换套数 + 编号</span></li>
+            <li><b>授权</b><span>开放 / 限定 / 仅展示</span></li>
+            <li><b>画幅</b><span>4:3、3:2、16:9</span></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 精选内容推荐 -->
+    <section class="block" id="featured">
+      <h2>精选套图推荐 <span class="sub">按完成度与可参考性挑选</span></h2>
+      <p class="intro">下方六组是编辑按光线控制、服装搭配与成片一致性挑出的条目，附选择理由，不按更新时间排序。</p>
+      <div class="feature-grid">
+        <article class="card">
+          <img src="https://picsum.photos/seed/youguo-indoor01/640/380" width="640" height="380" loading="lazy" alt="室内自然光窗边人像，模特侧坐，浅灰针织衫">
+          <div class="body">
+            <div class="meta"><span>2026-11-06</span><span>室内自然光</span></div>
+            <h3>林知夏 · 冬日窗光三套</h3>
+            <p>窗边漫射光下完成三套服装切换，白平衡全程 5200K 未偏，成片色差控制在极小范围。</p>
+            <div><span class="chip">窗光人像</span><span class="chip sage">开放转载</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/seed/youguo-street02/640/380" width="640" height="380" loading="lazy" alt="城市街拍人像，模特走过斑马线，风衣与围巾">
+          <div class="body">
+            <div class="meta"><span>2026-10-28</span><span>城市街拍</span></div>
+            <h3>周屿 · 梧桐路阴天街拍</h3>
+            <p>阴天柔光减少了硬阴影，摄影师把反光板收起来，靠地面反射补面部，成片更贴近纪实感。</p>
+            <div><span class="chip">阴天街拍</span><span class="chip rose">限定用途</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/seed/youguo-studio03/640/380" width="640" height="380" loading="lazy" alt="棚拍纯色背景人像，模特穿米色西装，背景浅赭色">
+          <div class="body">
+            <div class="meta"><span>2026-10-24</span><span>棚拍纯色</span></div>
+            <h3>苏晚 · 米色西装单灯</h3>
+            <p>一盏柔光箱加一块黑旗压暗右侧，服装褶皱保留得清楚，适合当棚拍布光的对照样本。</p>
+            <div><span class="chip">单灯布光</span><span class="chip sage">开放转载</span></div>
+          </div>
+        </article>
+        <article class="card card-wide">
+          <img src="https://picsum.photos/seed/youguo-travel04/760/520" width="760" height="520" loading="lazy" alt="旅拍外景人像，海边礁石，模特穿长裙，逆光">
+          <div class="body">
+            <div class="meta"><span>2026-10-31</span><span>旅拍外景</span><span>主摄：陈默</span></div>
+            <h3>许澄 · 东海礁石逆光四套</h3>
+            <p>拍摄从下午 15:40 持续到日落后的 17:55，四套服装分别对应侧逆光、正逆光与蓝调时刻。摄影师陈默在访谈里提到，礁石区风大，长裙摆幅需两人协助维持，这套的现场记录比成片更有参考价值。授权为仅展示，转载需单独申请。</p>
+            <div><span class="chip">逆光旅拍</span><span class="chip">蓝调时刻</span><span class="chip rose">仅展示</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/seed/youguo-film05/640/380" width="640" height="380" loading="lazy" alt="胶片质感人像，模特穿深棕外套，路边落叶">
+          <div class="body">
+            <div class="meta"><span>2026-10-19</span><span>城市街拍</span></div>
+            <h3>林知夏 · 秋日胶片两套</h3>
+            <p>用 400 感光度胶卷拍完整组，颗粒与色温偏移是刻意的，不是后期加滤镜，说明里附了冲洗参数。</p>
+            <div><span class="chip">胶片质感</span><span class="chip sage">开放转载</span></div>
+          </div>
+        </article>
+        <article class="card">
+          <img src="https://picsum.photos/seed/youguo-room06/640/380" width="640" height="380" loading="lazy" alt="室内布光人像，模特坐在地毯上，暖色台灯与冷色窗光混合">
+          <div class="body">
+            <div class="meta"><span>2026-10-22</span><span>室内布光</span></div>
+            <h3>苏晚 · 冷暖混光房间</h3>
+            <p>台灯 3000K 与窗外 5600K 光混合，肤色处理难度高，成片给了两个版本的取舍说明。</p>
+            <div><span class="chip">混光处理</span><span class="chip rose">限定用途</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- 最新更新 -->
+    <section class="block" id="updates">
+      <h2>最新更新记录 <span class="sub">日期、条目与变更内容</span></h2>
+      <ul class="updates">
+        <li>
+          <time datetime="2026-11-06">11月6日</time>
+          <span class="t">「冬日室内自然光」专题第 3 批上线</span>
+          <span class="d">新增 24 组，含林知夏、苏晚各 6 组，其余为 9 位新模特的首次收录。</span>
+          <span class="who">专题</span>
+        </li>
+        <li>
+          <time datetime="2026-11-04">11月4日</time>
+          <span class="t">摄影师陈默访谈第二篇发布</span>
+          <span class="d">谈东海礁石逆光那组的风控与设备选择，附现场测光表读数。</span>
+          <span class="who">访谈</span>
+        </li>
+        <li>
+          <time datetime="2026-11-02">11月2日</time>
+          <span class="t">授权状态批量复核完成</span>
+          <span class="d">17 组条目的授权由「开放转载」调整为「限定用途」，原因栏已登记。</span>
+          <span class="who">目录</span>
+        </li>
+        <li>
+          <time datetime="2026-10-31">10月31日</time>
+          <span class="t">许澄 · 东海礁石逆光四套入库</span>
+          <span class="d">该组为 10 月单组播放与收藏综合排名第一，现场记录同步放出。</span>
+          <span class="who">套图</span>
+        </li>
+        <li>
+          <time datetime="2026-10-28">10月28日</time>
+          <span class="t">新增「阴天街拍」场景标签说明</span>
+          <span class="d">补充阴天光线条件下的补光选择、白平衡取值与常见失误对照表。</span>
+          <span class="who">标签</span>
+        </li>
+        <li>
+          <time datetime="2026-10-24">10月24日</time>
+          <span class="t">苏晚 · 米色西装单灯入库</span>
+          <span class="d">同时修订了「棚拍纯色」分类下的布光图例，替换 2 张旧示意图。</span>
+          <span class="who">套图</span>
+        </li>
+        <li>
+          <time datetime="2026-10-19">10月19日</time>
+          <span class="t">林知夏 · 秋日胶片两套入库</span>
+          <span class="d">附冲洗参数：显影 6 分 30 秒、温度 38℃、扫描型号 5000ED。</span>
+          <span class="who">套图</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- 分类入口 -->
+    <section class="block" id="channels">
+      <h2>主题分类入口 <span class="sub">按场景、光线与城市检索</span></h2>
+      <p class="intro">括号内为当前目录收录条目数，数字随每批更新变化。</p>
+      <div class="index-tags">
+        <a href="/#featured">室内自然光人像 <small>386</small></a>
+        <a href="/#featured">棚拍纯色背景 <small>241</small></a>
+        <a href="/#featured">城市街拍写真 <small>198</small></a>
+        <a href="/#featured">旅拍外景 <small>176</small></a>
+        <a href="/#featured">室内布光 <small>132</small></a>
+        <a href="/#featured">胶片质感 <small>87</small></a>
+        <a href="/#featured">逆光与剪影 <small>74</small></a>
+        <a href="/#featured">阴天柔光 <small>66</small></a>
+        <a href="/#featured">老洋房场景 <small>58</small></a>
+        <a href="/#featured">天台与屋顶 <small>41</small></a>
+        <a href="/#featured">海边礁石 <small>33</small></a>
+        <a href="/#featured">地铁与通勤 <small>29</small></a>
+      </div>
+    </section>
+
+    <!-- 深度解析 -->
+    <section class="block" id="deep">
+      <h2>深度解析 <span class="sub">室内自然光选题为何占目录近半</span></h2>
+      <article class="deep">
+        <h3>一、光线成本：自然光选题的实际拍摄门槛更低</h3>
+        <p>2026 年 10 月 1 日至 11 月 6 日，目录新增 132 组条目，其中室内自然光 61 组，占比 46.2%。同期棚拍纯色仅 22 组。造成差距的直接原因不是审美偏好，而是设备与场地成本：室内自然光只需一扇朝南窗与一块反光板，棚拍需灯组、柔光箱与至少两人在场协助。</p>
+        <p>摄影师陈默在 11 月 4 日发布的访谈中提到，他为礁石逆光那组准备了 3 支灯与 2 块反光板，现场却因风大只用了 1 支灯补面部，其余靠自然光。这类「设备带了但用不上」的情况在外景选题中频繁出现，也解释了为什么部分摄影师更愿意拍室内窗光。</p>
+
+        <div class="verdict">可被引用的判断：在当前条目结构下，室内自然光选题的高占比主要由光线可控性与人力成本决定，而非题材本身的审美优势。反驳这条判断的路径也清楚——若统计只取收藏量前 20% 的条目，室内自然光占比会降到 31%，说明高占比与高热度并不同步。</div>
+
+        <h3>二、数据对照：高占比与高收藏并不重合</h3>
+        <p>把 10 月至 11 月的新增条目按收藏量排序，前 20% 的条目共 26 组，其中室内自然光 8 组、旅拍外景 7 组、城市街拍 5 组、棚拍纯色 4 组、室内布光 2 组。室内自然光在总量占 46.2%，在高收藏区间只占 30.8%。旅拍外景总量占 13.6%，在高收藏区间反而升到 26.9%。</p>
+        <div class="check">
+          <h4>可核对结构：10 月 1 日—11 月 6 日新增条目分布</h4>
+          <table>
+            <tr><th>场景类型</th><td>新增组数 / 占总量</td><td>高收藏区间组数 / 占比</td></tr>
+            <tr><th>室内自然光</th><td>61 / 46.2%</td><td>8 / 30.8%</td></tr>
+            <tr><th>棚拍纯色</th><td>22 / 16.7%</td><td>4 / 15.4%</td></tr>
+            <tr><th>城市街拍</th><td>19 / 14.4%</td><td>5 / 19.2%</td></tr>
+            <tr><th>旅拍外景</th><td>18 / 13.6%</td><td>7 / 26.9%</td></tr>
+            <tr><th>室内布光</th><td>12 / 9.1%</td><td>2 / 7.7%</td></tr>
+          </table>
+        </div>
+
+        <h3>三、规则前后变化：授权复核影响了可传播范围</h3>
+        <p>11 月 2 日的授权复核把 17 组条目从「开放转载」改为「限定用途」，其中 11 组属于室内自然光。改动之后，这批条目在外部渠道的可引用范围收窄，页面内仍可正常浏览，但二次传播需单独申请。这条规则变化对收藏量的影响尚未在数据中体现，因为复核完成仅过去四天。</p>
+        <p>另一种说法是，高收藏条目集中在旅拍外景，是因为外景本身具备稀缺性，同城可复制的拍摄点有限。这个解释可以核对：目录里标注为海边礁石的条目共 33 组，集中在东海与南海两个片区，重复拍摄点比例高，稀缺性说法至少在该片区不成立。</p>
+        <p>按现有记录，判断应拆成两层：总量层面，室内自然光确实是产出主力；热度层面，外景与街拍更集中地出现在高收藏区间。把两层混在一起谈，容易得出「自然光选题更受欢迎」的错误结论。</p>
+      </article>
+    </section>
+
+    <!-- 体验指南 -->
+    <section class="block" id="guide">
+      <h2>浏览与检索体验指南 <span class="sub">从进入目录到定位目标条目</span></h2>
+      <ol class="steps">
+        <li><b>确定场景标签再搜模特名</b>先选五类场景之一，再输入模特或摄影师名字。直接搜模特名会返回跨场景的全部记录，容易把不同季度的风格混在一起看。</li>
+        <li><b>用拍摄日期锁定季度风格</b>同一模特在 7 月与 11 月的成片差异通常大于不同模特之间的差异。日期字段可排序，按季度筛更省时间。</li>
+        <li><b>核对授权状态再决定用途</b>「开放转载」可直接引用并注明署名；「限定用途」需在条目页查看具体限制；「仅展示」不支持二次使用。</li>
+        <li><b>看现场记录而非只看成片</b>访谈与现场记录里常有测光读数、设备清单与失误说明，这些信息对复现拍摄条件更有价值。</li>
+        <li><b>收藏前先看同组其他服装编号</b>一组套图常拆为三到四条记录，只看第一条容易错过同一场景下的其他服装效果。</li>
+      </ol>
+    </section>
+
+    <!-- 对照面板 -->
+    <section class="block" id="compare">
+      <h2>场景对照：室内自然光与棚拍纯色 <span class="sub">同一模特、不同条件下的取舍</span></h2>
+      <div class="compare">
+        <div class="side-a">
+          <h3>室内自然光（林知夏 · 11月6日）</h3>
+          <ul>
+            <li>光源：朝南窗，漫射，白平衡全程 5200K。</li>
+            <li>辅助：一块 80cm 反光板，2 人现场。</li>
+            <li>服装切换：3 套，单套平均 41 分钟。</li>
+            <li>难点：午后光强变化快，14:00 后需重新测光。</li>
+            <li>成片特征：肤色过渡柔和，背景细节保留多。</li>
+            <li>授权：开放转载，注明署名即可。</li>
+          </ul>
+        </div>
+        <div>
+          <h3>棚拍纯色（苏晚 · 10月24日）</h3>
+          <ul>
+            <li>光源：单柔光箱加黑旗，色温固定 5600K。</li>
+            <li>辅助：2 支灯备用，实际只用 1 支，3 人现场。</li>
+            <li>服装切换：2 套，单套平均 28 分钟。</li>
+            <li>难点：右侧压暗过度会丢服装褶皱，需反复调整黑旗位置。</li>
+            <li>成片特征：背景干净，轮廓线明确，阴影硬。</li>
+            <li>授权：开放转载，与上一组一致。</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="block" id="faq">
+      <h2>常见问题 <span class="sub">关于目录字段、授权与检索</span></h2>
+      <div class="faq">
+        <details>
+          <summary>室内自然光人像的白平衡怎么定？</summary>
+          <div class="ans">窗光在一天内的色温会从早晨偏冷逐步转向午后偏暖，固定 5200K 只在 10:00 至 14:00 区间稳定。林知夏 11 月 6 日那组全程未调白平衡，是因为拍摄集中在 11:20 至 13:40；若跨到 15:00 之后，通常需要补一次灰卡。</div>
+        </details>
+        <details>
+          <summary>城市街拍写真里阴天为什么反而更好用？</summary>
+          <div class="ans">阴天云层相当于一块大面积的柔光布，面部与地面的光比小，硬阴影基本消失。周屿 10 月 28 日那组在梧桐路拍摄，摄影师收起了反光板，靠浅色路面反射补面部，成片整体亮度比晴天同机位高约半档。</div>
+        </details>
+        <details>
+          <summary>套图的「限定用途」具体限制什么？</summary>
+          <div class="ans">限定用途条目允许在个人非商业场景中引用，需保留模特与摄影师署名；用于商业投放、二次剪辑或印刷物料前，须在条目页提交申请。11 月 2 日复核后有 17 组从开放转载降为限定用途，原因栏均登记了具体条款编号。</div>
+        </details>
+        <details>
+          <summary>胶片质感是怎么区分的，不是后期滤镜吗？</summary>
+          <div class="ans">目录要求胶片类条目附冲洗参数，林知夏 10 月 19 日那组标注了显影 6 分 30 秒、温度 38℃、扫描型号 5000ED。没有冲洗参数的颗粒效果一律归入城市街拍的后期处理项，不进入胶片分类。</div>
+        </details>
+        <details>
+          <summary>海边礁石外景为什么标注「仅展示」？</summary>
+          <div class="ans">该组拍摄涉及特定场地方的场地协议，协议只允许在目录内展示成片，不包含二次分发。许澄这组共四套服装、约 210 张成片，页面内可完整浏览，外部转载须走单独申请流程。</div>
+        </details>
+        <details>
+          <summary>同一模特的多组记录怎么排序？</summary>
+          <div class="ans">默认按拍摄日期倒序，最新在前；也可切换为按场景标签聚合，同一标签下的记录再按日期排。林知夏目前有 4 条记录，跨室内自然光、城市街拍两类场景，聚合后能直接看出她在两类场景下的风格差异。</div>
+        </details>
+        <details>
+          <summary>目录里的条目数多久更新一次？</summary>
+          <div class="ans">每批内容入库后同步更新，通常在周二、周五发布当天完成。分类入口的数字随批次变动，例如室内自然光从 10 月底的 362 组增至 11 月 6 日的 386 组，增量对应专题第 1 至 3 批。</div>
+        </details>
+      </div>
+    </section>
+
+    <!-- 用户评论 -->
+    <section class="block" id="comments">
+      <h2>用户评论 <span class="sub">来自条目页的真实反馈</span></h2>
+      <div class="comments">
+        <div class="comment">
+          <div class="who"><b>沈冶</b><span class="rate">★★★★★</span><span>11月6日</span></div>
+          <p>林知夏那组的窗光处理确实稳，三套服装从浅灰到米白，背景没有一次过曝。我照着 5200K 试拍过一次，下午两点半之后就开始偏暖，得重新校色。</p>
+          <a class="ref" href="/#featured">指向条目：林知夏 · 冬日窗光三套</a>
+        </div>
+        <div class="comment">
+          <div class="who"><b>南山拍客</b><span class="rate">★★★☆☆</span><span>11月5日</span></div>
+          <p>许澄那组逆光的现场记录写得细，但成片放出来的张数偏少，四套服装只看到 30 多张。说是仅展示，能理解，不过作为对照样本略薄。</p>
+          <a class="ref" href="/#featured">指向条目：许澄 · 东海礁石逆光四套</a>
+        </div>
+        <div class="comment">
+          <div class="who"><b>老周不修图</b><span class="rate">★★★★☆</span><span>11月4日</span></div>
+          <p>苏晚米色西装单灯那组，黑旗位置压得挺准，右边没死黑。单灯能拍成这样，说明前面试了很多次，布光图例那块比正文有用。</p>
+          <a class="ref" href="/#featured">指向条目：苏晚 · 米色西装单灯</a>
+        </div>
+        <div class="comment">
+          <div class="who"><b>豆沙包</b><span class="rate">★★☆☆☆</span><span>11月3日</span></div>
+          <p>分类名字有点绕，「室内布光」和「棚拍纯色」经常分不清，点进去才发现有的纯色背景其实是在实景房间里搭的。标签说明该放到入口旁边。</p>
+          <a class="ref" href="/#channels">指向栏目：主题分类入口</a>
+        </div>
+        <div class="comment">
+          <div class="who"><b>胶片小陈</b><span class="rate">★★★★★</span><span>11月2日</span></div>
+          <p>冲洗参数直接写出来的做法少见，显影 6 分 30 秒、38℃ 这组数据我照做了一遍，颗粒比预期细，可能是扫描设备差异。总之有参数比没参数强太多。</p>
+          <a class="ref" href="/#featured">指向条目：林知夏 · 秋日胶片两套</a>
+        </div>
+        <div class="comment">
+          <div class="who"><b>路过的阿凯</b><span class="rate">★★★☆☆</span><span>11月2日</span></div>
+          <p>授权复核之后有 17 组改了状态，公告里只提了数字，没列条目。想知道改的是哪几组，得自己一组组点开看，这个体验不太行。</p>
+          <a class="ref" href="/#updates">指向栏目：最新更新记录</a>
+        </div>
+        <div class="comment">
+          <div class="who"><b>雾都来客</b><span class="rate">★★★★☆</span><span>11月1日</span></div>
+          <p>周屿那组阴天街拍的反光板选择有意思，收起来靠地面反射，成片确实比硬补光自然。梧桐路那个位置我路过，浅色路面这个解释站得住。</p>
+          <a class="ref" href="/#featured">指向条目：周屿 · 梧桐路阴天街拍</a>
+        </div>
+        <div class="comment">
+          <div class="who"><b>一只柠檬</b><span class="rate">★★☆☆☆</span><span>10月31日</span></div>
+          <p>苏晚冷暖混光那组给了两个版本，但没写哪版是主推，说明文字绕来绕去。既然难度高，就该把取舍讲明白，而不是让读者自己猜。</p>
+          <a class="ref" href="/#featured">指向条目：苏晚 · 冷暖混光房间</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 相关资讯 -->
+    <section class="block" id="news">
+      <h2>相关资讯 <span class="sub">拍摄动态与目录规则变化</span></h2>
+      <ul class="news-list">
+        <li><time datetime="2026-11-06">11月6日</time><span>专题第 3 批 24 组入库，9 位新模特首次收录</span><span class="tag">专题</span></li>
+        <li><time datetime="2026-11-05">11月5日</time><span>「阴天柔光」场景标签下的补光说明完成第二轮修订</span><span class="tag">标签</span></li>
+        <li><time datetime="2026-11-04">11月4日</time><span>陈默访谈第二篇：礁石区风控与设备清单公开</span><span class="tag">访谈</span></li>
+        <li><time datetime="2026-11-02">11月2日</time><span>授权状态批量复核完成，17 组条目调整</span><span class="tag">规则</span></li>
+        <li><time datetime="2026-10-29">10月29日</time><span>老洋房场景新增采光时段说明，标注朝南窗与西晒差异</span><span class="tag">场景</span></li>
+        <li><time datetime="2026-10-26">10月26日</time><span>胶片类目要求提交冲洗参数，未提交者归入后期处理项</span><span class="tag">规则</span></li>
+      </ul>
+    </section>
+
+    <!-- 榜单与时间线 -->
+    <section class="block" id="rank">
+      <h2>本周收藏榜与拍摄时间线 <span class="sub">10 月 12 日至 11 月 6 日</span></h2>
+      <ol class="rank">
+        <li>许澄 · 东海礁石逆光四套 <span class="sc">收藏 2,914</span></li>
+        <li>林知夏 · 冬日窗光三套 <span class="sc">收藏 2,376</span></li>
+        <li>周屿 · 梧桐路阴天街拍 <span class="sc">收藏 1,982</span></li>
+        <li>苏晚 · 米色西装单灯 <span class="sc">收藏 1,640</span></li>
+        <li>林知夏 · 秋日胶片两套 <span class="sc">收藏 1,288</span></li>
+        <li>苏晚 · 冷暖混光房间 <span class="sc">收藏 967</span></li>
+      </ol>
+      <div style="height:18px"></div>
+      <ul class="timeline">
+        <li><b>10月12日</b><span>「秋日胶片」选题启动，确定 400 感光度胶卷与冲洗参数登记规则。</span></li>
+        <li><b>10月19日</b><span>林知夏胶片两套入库，目录首次出现完整冲洗参数。</span></li>
+        <li><b>10月24日</b><span>苏晚单灯组入库，棚拍纯色布光图例同步替换。</span></li>
+        <li><b>10月31日</b><span>许澄礁石逆光四套入库，现场记录列为独立条目。</span></li>
+        <li><b>11月2日</b><span>授权批量复核，17 组状态调整。</span></li>
+        <li><b>11月6日</b><span>冬日室内自然光专题第 3 批上线，24 组入库。</span></li>
+      </ul>
+    </section>
+
+    <!-- 补充：创作者证言 -->
+    <section class="block" id="voices">
+      <h2>创作者证言 <span class="sub">三组拍摄的现场取舍</span></h2>
+      <div class="panel">
+        <blockquote class="quote">「反光板在礁石区根本立不住，三个人扶一块板，风一来全白费。最后只留一支灯补面部，其余交给太阳。」<cite>陈默 · 10月31日 东海礁石拍摄现场</cite></blockquote>
+        <blockquote class="quote">「窗光最好用的时间是 11 点半到 1 点半，过了两点，靠窗那面墙的颜色就开始往暖里走，得重新校。」<cite>林知夏 · 11月6日 室内自然光拍摄后记录</cite></blockquote>
+        <blockquote class="quote">「单灯不是省事，是逼你把黑旗位置调对。右边压过头，褶皱全没了，我调了差不多二十分钟。」<cite>苏晚 · 10月24日 棚拍现场</cite></blockquote>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 侧栏 -->
+  <aside class="side">
+    <div class="panel">
+      <h3>本页栏目</h3>
+      <nav aria-label="页内导航">
+        <ul>
+          <li><a href="/#overview">图集目录概览</a></li>
+          <li><a href="/#featured">精选套图推荐</a></li>
+          <li><a href="/#updates">最新更新记录</a></li>
+          <li><a href="/#channels">主题分类入口</a></li>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#guide">浏览与检索体验指南</a></li>
+          <li><a href="/#compare">场景对照</a></li>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#comments">用户评论</a></li>
+          <li><a href="/#rank">榜单与时间线</a></li>
+          <li><a href="/#voices">创作者证言</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="panel">
+      <h3>相关推荐</h3>
+      <div class="reco-tags">
+        <a href="/#featured">室内自然光人像</a>
+        <a href="/#featured">阴天街拍</a>
+        <a href="/#featured">单灯布光</a>
+        <a href="/#featured">胶片冲洗参数</a>
+        <a href="/#featured">逆光旅拍</a>
+        <a href="/#featured">冷暖混光</a>
+        <a href="/#channels">棚拍纯色背景</a>
+        <a href="/#channels">老洋房场景</a>
+        <a href="/#channels">海边礁石</a>
+      </div>
+    </div>
+    <div class="panel">
+      <h3>目录速览</h3>
+      <ul class="def-list">
+        <li><b>条目总数</b><span>1,286 组</span></li>
+        <li><b>摄影师</b><span>214 位</span></li>
+        <li><b>10月新增</b><span>96 组</span></li>
+        <li><b>高收藏区间</b><span>26 组</span></li>
+        <li><b>更新时间</b><span>11月6日</span></li>
+      </ul>
+    </div>
+  </aside>
+</div>
+
+<!-- 页脚 -->
+<footer class="foot">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <div class="brand">
+          <svg viewBox="0 0 64 64" width="34" height="34" role="img" aria-hidden="true">
+            <rect width="64" height="64" rx="15" fill="#f3e6ca"/>
+            <circle cx="24" cy="24" r="11" fill="#1b1b2e"/>
+            <circle cx="41" cy="41" r="11" fill="#c96a5a"/>
+          </svg>
+          <span class="name">尤果网官方网站</span>
+        </div>
+        <p class="pos">以场景标签与拍摄参数为核心组织方式，让每一组图集都能按光线条件与授权状态被准确找到。</p>
+      </div>
+      <div>
+        <h4>目录</h4>
+        <ul>
+          <li><a href="/#overview">图集目录概览</a></li>
+          <li><a href="/#featured">精选套图推荐</a></li>
+          <li><a href="/#channels">主题分类入口</a></li>
+          <li><a href="/#rank">本周收藏榜</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>阅读</h4>
+        <ul>
+          <li><a href="/#deep">深度解析</a></li>
+          <li><a href="/#guide">体验指南</a></li>
+          <li><a href="/#compare">场景对照</a></li>
+          <li><a href="/#voices">创作者证言</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>互动</h4>
+        <ul>
+          <li><a href="/#faq">常见问题</a></li>
+          <li><a href="/#comments">用户评论</a></li>
+          <li><a href="/#updates">更新记录</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="note">
+      <p><b>示例数据说明：</b>站内套图条目、模特名、摄影师署名、收藏数与播放数据均为演示用示例，不对应真实人物与真实作品；授权状态与分类统计基于示例条目构造。页面内容仅作目录结构展示。</p>
+      <p><b>更新时间：</b>2026-11-06，对应正文「最新更新记录」中 11 月 6 日专题第 3 批 24 组入库一条，以及分类入口中室内自然光 386 组的数字变化。</p>
+      <p>© 2026 尤果网官方网站 · 页面结构与文案为示例内容，保留所有权利。</p>
+    </div>
+  </div>
+</footer>
+
+<button class="top" id="topBtn" type="button" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  "use strict";
+
+  // 移动端菜单
+  var menuBtn = document.getElementById('menuBtn');
+  var nav = document.getElementById('mainNav');
+  if(menuBtn && nav){
+    menuBtn.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  // 本地搜索
+  var form = document.getElementById('searchForm');
+  var input = document.getElementById('q');
+  var out = document.getElementById('searchResult');
+
+  var index = [
+    {t:'林知夏 · 冬日窗光三套', k:'林知夏 室内自然光 窗光 冬日 5200K', h:'/#featured'},
+    {t:'周屿 · 梧桐路阴天街拍', k:'周屿 城市街拍 阴天 梧桐路 反光板', h:'/#featured'},
+    {t:'苏晚 · 米色西装单灯', k:'苏晚 棚拍纯色 单灯 黑旗 西装', h:'/#featured'},
+    {t:'许澄 · 东海礁石逆光四套', k:'许澄 旅拍外景 礁石 逆光 陈默 蓝调', h:'/#featured'},
+    {t:'林知夏 · 秋日胶片两套', k:'林知夏 胶片 冲洗参数 400 显影', h:'/#featured'},
+    {t:'苏晚 · 冷暖混光房间', k:'苏晚 室内布光 混光 3000K 5600K', h:'/#featured'},
+    {t:'图集目录概览', k:'目录 字段 标识 场景 授权 画幅', h:'/#overview'},
+    {t:'最新更新记录', k:'更新 批次 11月6日 授权复核', h:'/#updates'},
+    {t:'主题分类入口', k:'分类 场景 城市 室内自然光 棚拍纯色', h:'/#channels'},
+    {t:'深度解析：室内自然光占比', k:'深度 解析 统计 收藏 占比 46.2%', h:'/#deep'},
+    {t:'浏览与检索体验指南', k:'指南 检索 场景标签 日期 授权', h:'/#guide'},
+    {t:'场景对照：自然光与棚拍', k:'对照 室内自然光 棚拍纯色 光源 服装', h:'/#compare'},
+    {t:'常见问题', k:'FAQ 白平衡 阴天 限定用途 胶片 礁石 排序', h:'/#faq'},
+    {t:'用户评论', k:'评论 反馈 条目 收藏', h:'/#comments'},
+    {t:'相关资讯', k:'资讯 动态 标签 规则 访谈', h:'/#news'},
+    {t:'本周收藏榜与拍摄时间线', k:'榜单 时间线 收藏 10月 11月', h:'/#rank'},
+    {t:'创作者证言', k:'证言 陈默 林知夏 苏晚 现场', h:'/#voices'}
+  ];
+
+  function render(q){
+    var kw = q.trim().toLowerCase();
+    if(!kw){ out.classList.remove('open'); out.innerHTML=''; return; }
+    var hits = index.filter(function(item){
+      return (item.t + ' ' + item.k).toLowerCase().indexOf(kw) !== -1;
+    }).slice(0,6);
+    if(hits.length === 0){
+      out.innerHTML = '<div style="color:#8c3f31">没有找到与「' + escapeHtml(q.trim()) + '」匹配的条目，换个摄影师名或场景词试试。</div>';
+    }else{
+      out.innerHTML = hits.map(function(h){
+        return '<a href="' + h.h + '">' + escapeHtml(h.t) + '</a>';
+      }).join('');
+    }
+    out.classList.add('open');
+  }
+
+  function escapeHtml(s){
+    return s.replace(/[&<>"']/g, function(c){
+      return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];
+    });
+  }
+
+  if(form && input && out){
+    input.addEventListener('input', function(){ render(input.value); });
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      render(input.value);
+    });
+    document.addEventListener('click', function(e){
+      if(!form.contains(e.target)) out.classList.remove('open');
+    });
+  }
+
+  // 侧栏滚动高亮
+  var sideLinks = Array.prototype.slice.call(document.querySelectorAll('.side nav a'));
+  var targets = sideLinks.map(function(a){
+    var id = a.getAttribute('href').split('#')[1];
+    return document.getElementById(id);
+  });
+
+  function onScroll(){
+    var pos = window.scrollY + 160;
+    var current = -1;
+    targets.forEach(function(el, i){
+      if(el && el.offsetTop <= pos) current = i;
+    });
+    sideLinks.forEach(function(a, i){
+      if(i === current){ a.classList.add('on'); }
+      else{ a.classList.remove('on'); }
+    });
+
+    var topBtn = document.getElementById('topBtn');
+    if(topBtn){
+      if(window.scrollY > 500){ topBtn.classList.add('show'); }
+      else{ topBtn.classList.remove('show'); }
+    }
+  }
+
+  var ticking = false;
+  window.addEventListener('scroll', function(){
+    if(!ticking){
+      window.requestAnimationFrame(function(){
+        onScroll();
+        ticking = false;
+      });
+      ticking = true;
+    }
+  }, {passive:true});
+  onScroll();
+
+  var topBtn = document.getElementById('topBtn');
+  if(topBtn){
+    topBtn.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+  }
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"尤果网官方网站",
+  "description":"按主题、城市、摄影师与光线条件整理的视觉图集与模特写真目录，含场景标签、授权状态与拍摄参数。",
+  "inLanguage":"zh-CN"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"室内自然光人像的白平衡怎么定？",
+      "acceptedAnswer":{"@type":"Answer","text":"窗光在一天内的色温会从早晨偏冷逐步转向午后偏暖，固定 5200K 只在 10:00 至 14:00 区间稳定。林知夏 11 月 6 日那组全程未调白平衡，是因为拍摄集中在 11:20 至 13:40；若跨到 15:00 之后，通常需要补一次灰卡。"}
+    },
+    {
+      "@type":"Question",
+      "name":"城市街拍写真里阴天为什么反而更好用？",
+      "acceptedAnswer":{"@type":"Answer","text":"阴天云层相当于一块大面积的柔光布，面部与地面的光比小，硬阴影基本消失。周屿 10 月 28 日那组在梧桐路拍摄，摄影师收起了反光板，靠浅色路面反射补面部，成片整体亮度比晴天同机位高约半档。"}
+    },
+    {
+      "@type":"Question",
+      "name":"套图的「限定用途」具体限制什么？",
+      "acceptedAnswer":{"@type":"Answer","text":"限定用途条目允许在个人非商业场景中引用，需保留模特与摄影师署名；用于商业投放、二次剪辑或印刷物料前，须在条目页提交申请。11 月 2 日复核后有 17 组从开放转载降为限定用途，原因栏均登记了具体条款编号。"}
+    },
+    {
+      "@type":"Question",
+      "name":"胶片质感是怎么区分的，不是后期滤镜吗？",
+      "acceptedAnswer":{"@type":"Answer","text":"目录要求胶片类条目附冲洗参数，林知夏 10 月 19 日那组标注了显影 6 分 30 秒、温度 38℃、扫描型号 5000ED。没有冲洗参数的颗粒效果一律归入城市街拍的后期处理项，不进入胶片分类。"}
+    },
+    {
+      "@type":"Question",
+      "name":"海边礁石外景为什么标注「仅展示」？",
+      "acceptedAnswer":{"@type":"Answer","text":"该组拍摄涉及特定场地方的场地协议，协议只允许在目录内展示成片，不包含二次分发。许澄这组共四套服装、约 210 张成片，页面内可完整浏览，外部转载须走单独申请流程。"}
+    },
+    {
+      "@type":"Question",
+      "name":"同一模特的多组记录怎么排序？",
+      "acceptedAnswer":{"@type":"Answer","text":"默认按拍摄日期倒序，最新在前；也可切换为按场景标签聚合，同一标签下的记录再按日期排。林知夏目前有 4 条记录，跨室内自然光、城市街拍两类场景，聚合后能直接看出她在两类场景下的风格差异。"}
+    },
+    {
+      "@type":"Question",
+      "name":"目录里的条目数多久更新一次？",
+      "acceptedAnswer":{"@type":"Answer","text":"每批内容入库后同步更新，通常在周二、周五发布当天完成。分类入口的数字随批次变动，例如室内自然光从 10 月底的 362 组增至 11 月 6 日的 386 组，增量对应专题第 1 至 3 批。"}
+    }
+  ]
+}
+</script>
+</body>
+  </html>
